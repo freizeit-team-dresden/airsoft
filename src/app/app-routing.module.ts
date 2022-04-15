@@ -1,3 +1,5 @@
+import { DataSecComponent } from './data-sec/data-sec.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 import { RulesComponent } from './rules/rules.component';
 import { RegisterComponent } from './register/register.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -11,7 +13,9 @@ const routes: Routes = [
   { path: 'events', component: EventsComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'rules', component: RulesComponent }
+  { path: 'rules', component: RulesComponent },
+  { path: 'impressum', component: ImpressumComponent },
+  { path: 'datenschutz', component: DataSecComponent }
 ];
 
 @NgModule({

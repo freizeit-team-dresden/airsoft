@@ -13,6 +13,10 @@ import { RegisterComponent } from './register/register.component';
 import { EventsComponent } from './events/events.component';
 import { RulesComponent } from './rules/rules.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { DataSecComponent } from './data-sec/data-sec.component';
+import { MatCardModule } from '@angular/material/card'
+import { MatDividerModule } from '@angular/material/divider'
 
 @NgModule({
   declarations: [
@@ -21,7 +25,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
     RegisterComponent,
     EventsComponent,
     RulesComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ImpressumComponent,
+    DataSecComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MatSliderModule,
     MatToolbarModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
