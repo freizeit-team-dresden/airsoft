@@ -27,11 +27,6 @@ export class AppComponent implements AfterViewInit {
   }
 
   ngAfterViewInit () {
-    let ctx = this.canvas.nativeElement.getContext("2d");
-    if (ctx) {
-      ctx.canvas.width = this.ww;
-      ctx.canvas.height = this.wh;
-    }
     setInterval(() => {
       this.animate();
     }, 1000 / 60);
@@ -48,6 +43,8 @@ export class AppComponent implements AfterViewInit {
 
       let ctx = this.canvas.nativeElement.getContext("2d");
       if (ctx) {
+        ctx.canvas.width = window.innerWidth;
+        ctx.canvas.height = window.innerHeight;
         ctx.clearRect(0, 0, this.canvas.nativeElement.width, this.canvas.nativeElement.height);
         ctx.save();
 
