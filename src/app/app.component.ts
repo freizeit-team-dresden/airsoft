@@ -37,9 +37,8 @@ export class AppComponent implements AfterViewInit {
       //setup canvas enviroment
       let time = new Date().getTime() * 0.002;
       //console.log(time);
-      const color1 = "rgba(20,43,87,0.3)";
-      const color2 = "rgba(20,43,87,0.4)";
-      const bgcolor = "rgba(20,43,87,0.4)";
+      const color1 = "rgba(191,191,191,0.3)";
+      const color2 = "rgba(191,191,191,0.4)";
 
       let ctx = this.canvas.nativeElement.getContext("2d");
       if (ctx) {
