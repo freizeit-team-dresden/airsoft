@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://freizeit-team-dresden.github.io/airsoft/'",
+    "build": "ng build --prod --output-path docs --base-href 'https://freizeit-team-dresden.github.io/airsoft/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

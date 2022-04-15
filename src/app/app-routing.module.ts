@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'events', component: EventsComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'rules', component: RulesComponent },
+  { path: 'rules', component: RulesComponent }
 ];
 
 @NgModule({
