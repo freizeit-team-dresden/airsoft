@@ -9,3 +9,13 @@
 .heading{
     margin-top: 30%;
 }
+
+.flex-container{
+    margin-top: 60vh;
+    display: flex;
+    margin-bottom: 10vh;
+}
+
+.flex-child{
+    flex: 1;
+}
