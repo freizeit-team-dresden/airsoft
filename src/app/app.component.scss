@@ -6,27 +6,28 @@
   flex: 1;
 }
 
+.toolbar{
+	color: #EEEEEE;
+	background: transparent !important;
+}
+
 :host { 
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
 }
 
 .mat-toolbar{
 	background: rgba(26, 26, 26, 0.2);
 }
-#headline {
- font-size: x-large;
- font-weight: bold;
-}
 
 .hero {
-	background-color: #EEEEEE;
 	width: 100%;
 	height: 100%;
-	max-height: calc(100% - 50px);
+	min-height: 100vh;
 	.inner {
-		background: rgba(26, 26, 26, 0.2);
+		background:transparent;
+		color: #EEEEEE;
 		height: 100%;
 		position: relative;
 		max-width: 960px;
@@ -94,7 +95,6 @@ background: linear-gradient(to bottom,  rgba(114,81,109,0.2) 0%,rgba(238,238,238
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: #EEEEEE;
 		z-index: 1;
 		#hero-canvas {
 			width: 100%;

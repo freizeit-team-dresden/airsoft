@@ -66,15 +66,6 @@ export class AppComponent implements AfterViewInit {
         triangle_gradient.addColorStop(0, color1);
         triangle_gradient.addColorStop(1, color2);
 
-        ctx.beginPath();
-        ctx.moveTo(0, 0);
-        ctx.lineTo(this.canvas.nativeElement.width, 0);
-        ctx.lineTo(this.canvas.nativeElement.width, this.canvas.nativeElement.height);
-        ctx.lineTo(0, this.canvas.nativeElement.height);
-        ctx.lineTo(0, 0);
-        ctx.fillStyle = triangle_gradient;
-        ctx.fill();
-
 
         //triangle group 1 ===========================================
         // triangle 1.1
