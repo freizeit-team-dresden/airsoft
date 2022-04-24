@@ -1,0 +1,33 @@
+.background{
+    display: none;
+}
+
+.botContent{
+    
+}
+
+.topContent{
+    height: 740px;
+}
+
+.flex-container{
+    margin-top: 60vh;
+    display: flex;
+    margin-bottom: 10vh;
+}
+
+.flex-child{
+    flex: 1;
+}
+
+.expansionPanel{
+    background-color: #142b57;
+}
+
+.expansionPanelHeader{
+    color: white;
+}
+
+.expansionPanelContent{
+    color:white;
+}

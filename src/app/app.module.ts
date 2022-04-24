@@ -17,6 +17,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { DataSecComponent } from './data-sec/data-sec.component';
 import { MatCardModule } from '@angular/material/card'
 import { MatDividerModule } from '@angular/material/divider'
+import { MatExpansionModule } from '@angular/material/expansion'
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MatDividerModule } from '@angular/material/divider'
     MatButtonModule,
     MatSidenavModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
