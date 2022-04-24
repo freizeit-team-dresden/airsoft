@@ -18,6 +18,7 @@ import { DataSecComponent } from './data-sec/data-sec.component';
 import { MatCardModule } from '@angular/material/card'
 import { MatDividerModule } from '@angular/material/divider'
 import { MatExpansionModule } from '@angular/material/expansion'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MatExpansionModule } from '@angular/material/expansion'
     MatSidenavModule,
     MatCardModule,
     MatDividerModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

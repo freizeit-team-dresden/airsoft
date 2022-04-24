@@ -1,1 +1,23 @@
 <p>register works!</p>
+
+<div class="form">
+    <div class="flex-container">
+        <div class="flex-child">
+            <input [(ngModel)]="name" />
+        </div>
+        <div class="flex-child">
+            <input />
+        </div>
+        <div class="flex-child">
+            <input />
+        </div>
+    </div>
+    <div class="messageInput">
+        <input />
+    </div>
+    <div>
+        <button mat-raised-button (click)="onclickBTN()">E-Mail senden</button>
+    </div>
+</div>
+
+<a #link style="display: none;" id="mailto" [href]="hrefstring">test</a>
