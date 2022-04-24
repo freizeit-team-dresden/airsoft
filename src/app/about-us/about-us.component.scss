@@ -3,7 +3,7 @@
 }
 
 .botContent{
-    
+    margin-top: 20px;
 }
 
 .topContent{
@@ -11,13 +11,13 @@
 }
 
 .flex-container{
-    margin-top: 60vh;
     display: flex;
     margin-bottom: 10vh;
 }
 
 .flex-child{
     flex: 1;
+    vertical-align: middle;
 }
 
 .expansionPanel{
@@ -30,4 +30,9 @@
 
 .expansionPanelContent{
     color:white;
+}
+
+.introText{
+    margin-top: 10px;
+ font-size: 18px;
 }
