@@ -40,3 +40,11 @@
 .mat-expansion-indicator:after {
     color: white;
 }
+
+.photo {
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(3.0, 3.0);
+}
