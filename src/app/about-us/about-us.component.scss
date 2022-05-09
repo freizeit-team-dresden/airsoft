@@ -25,11 +25,11 @@
     border-style: solid;
     border-width: 2px;
     border-color: grey;
- 
-    /deep/ .mat-expansion-indicator::after {
-        color: white;
-    }
 }
+
+::ng-deep .expansionPanel > .mat-expansion-indicator:after {
+      color: white;
+    }
 
 .expansionPanelHeader{
     color: white;
