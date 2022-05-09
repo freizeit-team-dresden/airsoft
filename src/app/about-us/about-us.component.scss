@@ -25,6 +25,10 @@
     border-style: solid;
     border-width: 2px;
     border-color: grey;
+    
+    .mat-expansion-indicator::after {
+      color: white;
+    }
 }
 
 .expansionPanelHeader{
