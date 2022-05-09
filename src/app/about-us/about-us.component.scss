@@ -26,7 +26,7 @@
     border-width: 2px;
     border-color: grey;
     
-    .mat-expansion-indicator::after {
+    .mat-expansion-toggle-indicator::after {
       color: white;
     }
 }
@@ -44,8 +44,8 @@
  font-size: 18px;
 }
 
-.expansionPanel > .mat-expansion-indicator::after, .mat-expansion-panel-header-description {
-  color: white;
+/deep/ .mat-expansion-indicator::after, .mat-expansion-panel-header-description {
+    color: white;
 }
 
 .photo {
