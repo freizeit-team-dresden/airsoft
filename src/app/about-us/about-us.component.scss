@@ -27,8 +27,8 @@
     border-color: grey;
 }
 
-::ng-deep .expansionPanel > .mat-expansion-indicator:after {
-      color: white;
+.mat-expansion-indicator:after {
+      color: white !important;
     }
 
 .expansionPanelHeader{
