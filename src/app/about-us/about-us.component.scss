@@ -40,7 +40,7 @@
  font-size: 18px;
 }
 
-/deep/ .mat-expansion-indicator::after, .mat-expansion-panel-header-description {
+.expansionPanel > .mat-expansion-indicator::after, .mat-expansion-panel-header-description {
   color: white;
 }
 
