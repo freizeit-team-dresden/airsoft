@@ -1,0 +1,59 @@
+.background{
+    display: none;
+}
+
+.botContent{
+    margin-top: 20px;
+    margin-bottom: 10vh;
+}
+
+.topContent{
+    height: 740px;
+}
+
+.flex-container{
+    display: flex;
+    margin-bottom: 10vh;
+}
+
+.flex-child{
+    flex: 1;
+    vertical-align: middle;
+}
+
+.expansionPanel{
+    background-color: #142b57;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+  
+    ::ng-deep .mat-expansion-indicator:after {
+      color: white !important;
+    }
+  
+}
+
+.expansionPanelHeader{
+    color: white;
+}
+
+.expansionPanelContent{
+    color:white;
+}
+
+.introText{
+    margin-top: 10px;
+ font-size: 18px;
+}
+
+.photo {
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(2.0, 2.0);
+}
+
+.sponsorName{
+    font-size: 18px;
+}
