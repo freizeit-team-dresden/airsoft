@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { EventsComponent } from './events/events.component';
 import { RulesComponent } from './rules/rules.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { NewsComponent } from './news/news.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { DataSecComponent } from './data-sec/data-sec.component';
 import { MatCardModule } from '@angular/material/card'
@@ -28,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     EventsComponent,
     RulesComponent,
     AboutUsComponent,
+    NewsComponent,
     ImpressumComponent,
     DataSecComponent
   ],
